@@ -36106,6 +36106,8 @@ StartChar: uni0402
 Encoding: 1026 1026 1026
 Width: 1846
 Flags: W
+AnchorPoint: "above" 769 1465 basechar 0
+AnchorPoint: "below" 1167 -430 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -39983,6 +39985,8 @@ StartChar: uni0452
 Encoding: 1106 1106 1106
 Width: 1472
 Flags: W
+AnchorPoint: "above" 397 1465 basechar 0
+AnchorPoint: "below" 783 -390 basechar 0
 LayerCount: 2
 Fore
 SplineSet
