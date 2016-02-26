@@ -12,6 +12,6 @@ before_install:
 script:
   - make
 # after_success:
-notifications:
-  irc: "irc.freenode.org#dejavu"
-  # email: dejavu-fonts@lists.sourceforge.net
+# notifications:
+#   irc: "irc.freenode.org#dejavu"
+#   email: dejavu-fonts@lists.sourceforge.net
