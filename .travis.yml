@@ -9,6 +9,11 @@ install:
 - cp -r fc-git/fc-lang resources/fc-lang
 script:
 - make dist
+before_deploy:
+- commit=$(git rev-parse HEAD | sed 's/\(.\{7\}\).*/\1/')
+- version=$(head Makefile | grep VERSION | sed 's/VERSION = //')
+- mkdir snapshot
+- cp dist/dejavu-fonts-$ver.tar.bz2 snapshot/dejavu-fonts-$commit.tar.bz2
 deploy:
 - provider: releases
   skip_cleanup: true
